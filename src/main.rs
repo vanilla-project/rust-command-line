@@ -1,3 +1,6 @@
+mod example;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", example::message());
 }
+
